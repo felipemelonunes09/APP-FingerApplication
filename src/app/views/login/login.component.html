@@ -1,0 +1,17 @@
+<div class="row justify-content-center">
+    <div class="col-lg-6 col-sm-10">
+        <h3 class="display-4 mt-5 text-center"> Login </h3>
+        <div class="card shadow-lg">
+            <div class="card-body text-start">  
+                
+                <label> Nome </label>
+                <input #nome class="form-control mb-4" type="text" name="formNome1" placeholder="Digite seu nome">
+
+                <label> Senha </label>
+                <input class="form-control mb-4"type="password" placeholder="Digite sua senha">
+                
+                <button (click)="getName(nome.value)" class="btn btn-dark btn-sm mt-4 text-end" routerLink="/home"> Entrar </button>
+            </div>
+        </div>
+    </div>
+</div>
